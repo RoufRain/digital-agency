@@ -1,0 +1,15 @@
+.nav-bar{
+    display: flex;
+    background-color: darkgray;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+}
+.menus ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
