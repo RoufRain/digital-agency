@@ -1,8 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .nav-bar{
     display: flex;
     background-color: darkgray;
     justify-content: space-around;
     padding: 10px;
+    align-items: center;
 }
 
 li a{
@@ -11,5 +16,15 @@ li a{
 .menus ul{
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 15px;
+    font-size: 20px;
+   
+}
+
+/* bafnner section style */
+.banner-container{
+    height: 100vh;
+    background-image: url("asset/image/background.jpg");
+    background-position: center;
+
 }
